@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: rgb(88, 88, 88);
+}
+body {
+  background-color: rgb(235, 232, 232);
+}
+.square-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 35rem;
+  width: 30%;
+  margin-left: 400px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 10px;
+}
+form {
+  height: 100%;
+  display: grid;
+  grid-auto-rows: 1fr;
+  background-color: white;
+}
+h2 {
+  padding: 20px;
+  text-align: center;
+  font: lighter;
+}
+subtitle {
+  text-align: center;
+  padding: 10px 20px;
+}
+label input {
+  display: flex;
+  margin: 15px 15px;
+  height: 30px;
+  width: 85%;
+  border-radius: 5px;
+  border: 0.5px solid lightgray;
+  padding-left: 10px;
+}
+
+.verify {
+  text-align: center;
+}
+.confirm input {
+  margin: 15px 15px;
+  height: 30px;
+  width: 85%;
+  border-radius: 5px;
+  border: 0.5px solid lightgray;
+  padding-left: 10px;
+}
+input:focus {
+  outline: none;
+}
+button {
+  padding: 10px;
+  margin-left: 15px;
+  width: 90%;
+  background-color: rgb(4, 125, 165);
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  border-style: none;
+}
